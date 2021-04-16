@@ -1,5 +1,5 @@
 import Link from 'next/link'
 
-export default function HeaderLink({href, children}) {
+export default function TextLink({href, children}) {
   return <div><Link href={href}>{children}</Link></div>
 }

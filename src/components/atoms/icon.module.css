@@ -1,20 +1,21 @@
+.base {
+  vertical-align: middle;
+}
+
 .xs {
-  width: calc(var(--base-unit) * 2.5);
-  padding: var(--spacing-sm);
+  width: calc(var(--base-unit) * 1.5);
 }
 
 .sm {
-  width: calc(var(--base-unit) * 3);
-  padding: var(--spacing-sm);
+  width: calc(var(--base-unit) * 2);
 }
 
 .md {
-  width: calc(var(--base-unit) * 4);
-  padding: var(--spacing-sm);
+  width: calc(var(--base-unit) * 3);
 }
 
 .lg {
-
+  width: calc(var(--base-unit) * 4);
 }
 
 .invert {

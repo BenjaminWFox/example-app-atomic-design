@@ -1,5 +1,5 @@
 import styles from './logo.module.css'
-import Icon from './icon'
+import Icon from '../atoms/icon'
 
 export default function Logo() {
   return (

@@ -16,8 +16,9 @@
 
 .sidebar {
   background-color: #eee;
-  width: 400px;
   height: var(--body-height);
+  padding: var(--spacing-md);
+  width: calc(400px - var(--spacing-md));
 }
 
 .main {
