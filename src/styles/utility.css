@@ -1,0 +1,10 @@
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.space-between > *:not(:first-child) {
+  margin-left: var(--spacing-md);
+}

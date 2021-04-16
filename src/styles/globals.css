@@ -1,0 +1,37 @@
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.125rem;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --header-height: 4rem;
+  --footer-height: 8rem;
+  --body-height: calc(100vh - var(--header-height));
+  --base-unit: 1rem;
+
+  --spacing-xs: calc(var(--base-unit) - .75rem);
+  --spacing-sm: calc(var(--base-unit) - .5rem);
+  --spacing-md: calc(var(--base-unit) + 0rem);
+  --spacing-lg: calc(var(--base-unit) + .5rem);
+  --spacing-xl: calc(var(--base-unit) + 1rem);
+
+  --layout-xs: calc(var(--base-unit) * .25);
+  --layout-sm: calc(var(--base-unit) * .5);
+  --layout-md: calc(var(--base-unit) * 1);
+  --layout-lg: calc(var(--base-unit) * 2);
+  --layout-xl: calc(var(--base-unit) * 4);
+}

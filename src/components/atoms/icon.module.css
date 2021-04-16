@@ -1,0 +1,22 @@
+.xs {
+  width: calc(var(--base-unit) * 2.5);
+  padding: var(--spacing-sm);
+}
+
+.sm {
+  width: calc(var(--base-unit) * 3);
+  padding: var(--spacing-sm);
+}
+
+.md {
+  width: calc(var(--base-unit) * 4);
+  padding: var(--spacing-sm);
+}
+
+.lg {
+
+}
+
+.invert {
+  filter: invert(1);
+}

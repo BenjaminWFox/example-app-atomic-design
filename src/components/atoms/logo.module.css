@@ -1,0 +1,9 @@
+.logo {
+  padding: 0 var(--spacing-md) 0 var(--spacing-sm);
+  color: #fff;
+  background-color: steelblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 1rem;
+}

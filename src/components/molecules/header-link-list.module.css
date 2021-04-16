@@ -1,0 +1,9 @@
+.headerLinkList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.headerLinkList > * {
+  margin-left: var(--spacing-md);
+}
