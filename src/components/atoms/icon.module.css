@@ -3,19 +3,19 @@
 }
 
 .xs {
-  width: calc(var(--base-unit) * 1.5);
+  min-width: calc(var(--base-unit) * 1.5);
 }
 
 .sm {
-  width: calc(var(--base-unit) * 2);
+  min-width: calc(var(--base-unit) * 2);
 }
 
 .md {
-  width: calc(var(--base-unit) * 3);
+  min-width: calc(var(--base-unit) * 3);
 }
 
 .lg {
-  width: calc(var(--base-unit) * 4);
+  min-width: calc(var(--base-unit) * 4);
 }
 
 .invert {

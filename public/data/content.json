@@ -1,0 +1,129 @@
+{
+  "Categories": [
+    {
+      "name": "Personal",
+      "description" :"List of things I need to remember to not forget",
+      "lists": [
+        {
+          "name": "TODOs",
+          "description": "Ok, but actually do these this time...",
+          "entries": [
+            {
+              "name": "wash car",
+              "entries": [
+                {
+                  "name": "dont foget vaccuum",
+                  "entries": [
+                    {
+                      "name": "yes, even under the seats",
+                      "entries": [
+
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "go round cupholders with Q-Tip",
+                  "entries": []
+                }
+              ]
+            },
+            {
+              "name": "do laundry",
+              "entries": [
+                {
+                  "name": "AND FOLD IT",
+                  "entries": []
+                }    
+              ]
+            },
+            {
+              "name": "go to grocery story and buy things on grocery list",
+              "entries": []
+            },
+            {
+              "name": "schedule chiropractor appt",
+              "entries": []
+            },
+            {
+              "name": "look at dates for vacation next year",
+              "entries": []
+            }
+          ]
+        },
+        {
+          "name": "Grocery List",
+          "description": "sooo hungry",
+          "entries": []
+        },
+        {
+          "name": "Gift Ideas",
+          "description": "Birthdays, Christmas, and whatnot",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "name": "Work",
+      "description" :"Lists of things I'd rather forget",
+      "lists": [
+        {
+          "name": "Meetings",
+          "description": "",
+          "entries": [
+            {
+              "name": "TPS Reports",
+              "entries": [
+                {
+                  "name": "ask about saturdays",
+                  "entries": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Breakroom Snacks",
+          "description": "sooo hungry",
+          "entries": []
+        },
+        {
+          "name": "Outstanding Deliverables",
+          "description": "It'll be outstanding when they're not outstanding",
+          "entries": []
+        }
+      ]
+    },
+    {
+      "name": "Fitness",
+      "description" :"For those days when the motivation strikes",
+      "lists": [
+        {
+          "name": "Core Workouts",
+          "description": "",
+          "entries": [
+            {
+              "name": "8 Minute Abs",
+              "entries": [
+                {
+                  "name": "Remember to breathe",
+                  "entries": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Running Plan",
+          "description": "sooo hungry",
+          "entries": []
+        },
+        {
+          "name": "Local Physical Therapists",
+          "description": "This is going to be important",
+          "entries": []
+        }
+      ]
+    }
+  ]
+}

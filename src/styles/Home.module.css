@@ -14,6 +14,11 @@
   display: flex;
 }
 
+.content.centeredColumn {
+  margin: 0 auto;
+  width: 750px;
+}
+
 .sidebar {
   background-color: #eee;
   height: var(--body-height);
@@ -25,4 +30,17 @@
   background-color: azure;
   width: 100%;
   height: var(--body-height);
+  padding: var(--layout-md);
+}
+
+.main *:is(h1, h2) {
+  margin-bottom: var(--spacing-lg);
+}
+
+.main *:is(h2, h3) {
+  margin-bottom: var(--spacing-md);
+}
+
+.main *:is(h4, h5) {
+  margin-bottom: var(--spacing-sm);
 }
