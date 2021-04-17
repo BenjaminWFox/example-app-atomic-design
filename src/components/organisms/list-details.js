@@ -1,7 +1,7 @@
 function renderAllSubEntries(list) {
   if (list && list.entries?.length) {
     return <ul>
-      {list.entries.map(entry => <li>
+      {list.entries.map(entry => <li key={entry.name}>
       {entry.name}
         {renderAllSubEntries(entry)}
       </li>)}

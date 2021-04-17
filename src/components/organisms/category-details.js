@@ -7,7 +7,7 @@ export default function CategoryDetails({ category }) {
     {lists && lists.length ? <>
       <h3>Lists in Category:</h3>
       <ul>
-        {lists.map(list => <li><a href={`${name}/list/${list.name}`}>{list.name}</a></li>)}
+        {lists.map(list => <li key={list.name}><a href={`${name}/list/${list.name}`}>{list.name}</a></li>)}
       </ul>
     </>
       : <h3>No lists for this category!</h3>}

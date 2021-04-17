@@ -1,9 +1,9 @@
-import TemplateContentCenteredColumn from '../templates/template-content-centered-column'
+import TemplateContentFullWidth from '../templates/template-content-full-width'
 import UserHeader from '../../components/organisms/user-header'
 import Welcome from '../../components/organisms/welcome'
 
 export default function Category({content, children}) {
-  return <TemplateContentCenteredColumn
+  return <TemplateContentFullWidth
     header={<UserHeader />}
     content={<Welcome />}
   />

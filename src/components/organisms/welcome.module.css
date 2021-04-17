@@ -1,0 +1,25 @@
+.banner {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  width: 50%;
+  background-color: rgba(255, 255, 255, .5);
+  padding: var(--layout-xl);
+}
+
+.caption h1 {
+  font-size: 3rem;
+}
+
+.caption p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
