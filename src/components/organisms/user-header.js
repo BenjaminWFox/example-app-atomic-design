@@ -13,8 +13,7 @@ export default React.memo(function UserHeader() {
       <Logo />
       <HeaderLinkList>
         <TextLink href="/category/Personal">Categories</TextLink>
-        <TextLink href="/">All Lists</TextLink>
-        <TextLink href="/">Other</TextLink>
+        <TextLink href="/all">All Lists</TextLink>
       </HeaderLinkList>
     </div>
     <HeaderIconsGroup>

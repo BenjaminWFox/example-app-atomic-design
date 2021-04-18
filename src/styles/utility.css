@@ -22,3 +22,7 @@
 .flush-bottom {
   margin-bottom: calc(var(--layout-md) * -1);
 }
+
+.underline, .underline a {
+  text-decoration: underline;
+}

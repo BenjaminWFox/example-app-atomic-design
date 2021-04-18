@@ -1,10 +1,10 @@
 import TemplateContentFullWidth from '../templates/template-content-full-width'
 import UserHeader from '../../components/organisms/user-header'
-import Welcome from '../../components/organisms/welcome'
+import IndexContent from '../../components/organisms/index-content'
 
-export default function Category({content, children}) {
+export default function Index({content, children}) {
   return <TemplateContentFullWidth
     header={<UserHeader />}
-    content={<Welcome />}
+    content={<IndexContent />}
   />
 }

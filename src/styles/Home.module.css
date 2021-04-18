@@ -27,10 +27,14 @@
 }
 
 .main {
-  background-color: azure;
   width: 100%;
   height: var(--body-height);
   padding: var(--layout-md);
+}
+
+.bordered {
+  border-left: 1px #ccc solid;
+  border-right: 1px #ccc solid;
 }
 
 .main *:is(h1, h2) {

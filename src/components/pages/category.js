@@ -6,7 +6,7 @@ import CategoryDetails from '../../components/organisms/category-details'
 export default function Category({name, description, category, categories, sidenav}) {
   return <TemplateSidebarContent
     header={<UserHeader />}
-    sidebar={<SidebarNavigation title={name} subtitle={description} sidenav={sidenav} />}
+    sidebar={<SidebarNavigation selected={category.name} title={name} subtitle={description} sidenav={sidenav} />}
     content={<CategoryDetails category={category} />}
   />
 }

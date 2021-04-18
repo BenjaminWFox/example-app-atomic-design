@@ -7,7 +7,7 @@ export default function TemplateContentFullwidth({ header, content }) {
         {header}
       </header>
       <section className={[styles.content, styles.centeredColumn].join(' ')}>
-        <main className={styles.main}>
+        <main className={[styles.main, styles.bordered].join(' ')}>
           {content}
         </main>
       </section>

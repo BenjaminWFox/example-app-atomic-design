@@ -1,3 +1,5 @@
+import TextLink from '../atoms/text-link'
+
 export default function CategoryDetails({ category }) {
   const { name, description, lists } = category
   return (<>
@@ -7,7 +9,7 @@ export default function CategoryDetails({ category }) {
     {lists && lists.length ? <>
       <h3>Lists in Category:</h3>
       <ul>
-        {lists.map(list => <li key={list.name}><a href={`${name}/list/${list.name}`}>{list.name}</a></li>)}
+        {lists.map(list => <li key={list.name}><TextLink href={`${name}/list/${list.name}`}>{list.name}</TextLink></li>)}
       </ul>
     </>
       : <h3>No lists for this category!</h3>}
