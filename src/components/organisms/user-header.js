@@ -12,8 +12,8 @@ export default React.memo(function UserHeader() {
     <div className="horizontal">
       <Logo />
       <HeaderLinkList>
-        <TextLink href="/category/Personal">Categories</TextLink>
-        <TextLink href="/all">All Lists</TextLink>
+        <TextLink href="/category/Personal">Details</TextLink>
+        <TextLink href="/all">Lists</TextLink>
       </HeaderLinkList>
     </div>
     <HeaderIconsGroup>

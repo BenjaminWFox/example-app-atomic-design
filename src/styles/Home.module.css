@@ -16,14 +16,18 @@
 
 .content.centeredColumn {
   margin: 0 auto;
-  width: 750px;
+  max-width: 750px;
 }
 
 .sidebar {
   background-color: #eee;
   height: var(--body-height);
   padding: var(--spacing-md);
-  width: calc(400px - var(--spacing-md));
+  width: 175px;
+}
+
+@media screen and (min-width: 400px) {
+  .sidebar { width: calc(400px - var(--spacing-md)); }
 }
 
 .main {

@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 ul {
   margin-top: 0;
+  padding-left: 1.25rem;
 }
 
 a {

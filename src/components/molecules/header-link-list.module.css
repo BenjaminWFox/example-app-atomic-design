@@ -5,5 +5,11 @@
 }
 
 .headerLinkList > * {
-  margin-left: var(--spacing-md);
+  margin-left: var(--spacing-sm);
+}
+
+@media screen and (min-width: 600px) {
+  .headerLinkList > * {
+    margin-left: var(--spacing-md);
+  }
 }
