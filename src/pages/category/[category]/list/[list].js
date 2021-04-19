@@ -3,7 +3,7 @@ import ListPage from '../../../../components/pages/list'
 export default function List(props) { return <ListPage {...props} /> }
 
 export async function getServerSideProps(ctx) {
-  const request = await fetch('http://localhost:3000/data/content.json', {method: 'GET'})
+  const request = await fetch(`${process.env.SITE_ROOT}/data/content.json`, {method: 'GET'})
   const data = await request.json()
   const categories = data.Categories
   const sidenav = []
