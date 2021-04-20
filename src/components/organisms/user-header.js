@@ -5,7 +5,7 @@ import Logo from '../molecules/logo'
 import Link from 'next/link'
 import HeaderLinkList from '../molecules/header-link-list'
 import HeaderIconsGroup from '../molecules/header-icons-group'
-import TextLink from '../atoms/text-link'
+import TextLink from '../atoms/block-link'
 
 export default React.memo(function UserHeader() {
   return (<>

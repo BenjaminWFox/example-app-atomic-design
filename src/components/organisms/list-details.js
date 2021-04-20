@@ -1,3 +1,5 @@
+import Button from '../atoms/button'
+
 function renderAllSubEntries(list) {
   if (list && list.entries?.length) {
     return <ul>
@@ -14,6 +16,10 @@ return null
 export default function ListDetails({ list }) {
   const { name, description, entries } = list
 
+  const handleClick = () => {
+    alert('Add List Item Functionality not implemented!')
+  }
+
   return (<>
     <h2>{name}</h2>
     <em>{description}</em>
@@ -23,5 +29,6 @@ export default function ListDetails({ list }) {
       {renderAllSubEntries(list)}
     </>
       : <h3>No lists for this category!</h3>}
+      <Button onClick={handleClick} label="Add List Item" />
   </>)
 }

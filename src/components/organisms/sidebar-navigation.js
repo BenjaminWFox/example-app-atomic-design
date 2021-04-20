@@ -1,8 +1,8 @@
 import SidebarLinkList from '../molecules/sidebar-link-list'
-import TextLink from '../atoms/text-link'
+import TextLink from '../atoms/block-link'
 import SidebarTitle from '../molecules/sidebar-title'
 
-export default function SidebarNavigation({ title, subtitle, sidenav, selected }) {
+export default function SidebarNavigation({ title, subtitle, sidenav, selected, children }) {
   const handleAddNew = () => {
     alert('This functionality is not implemented!')
   }
@@ -14,7 +14,7 @@ export default function SidebarNavigation({ title, subtitle, sidenav, selected }
 
         return <TextLink key={entry.href} href={entry.href}>{label}</TextLink>
       })}
-      <button role="button" onClick={handleAddNew}>+ Add New</button>
     </SidebarLinkList>
+    {children}
   </>)
 }
