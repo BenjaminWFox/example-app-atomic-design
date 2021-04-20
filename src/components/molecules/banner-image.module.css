@@ -4,28 +4,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.caption {
-  position: relative;
-  text-align: center;
-  z-index: 1;
-  width: 50%;
-}
-
-.caption :is(h1, p) {
-  text-shadow: 0px -5px 10px #FFFFFF, 0px 5px 10px #FFFFFF, -5px 0px 10px #FFFFFF, 5px 0px 10px #FFFFFF, 5px 0px 10px #FFFFFF;
-}
-
-.caption h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-
-.caption h1 + p {
-  margin-top: var(--spacing-lg);
-}
-
-.caption p {
-  font-size: 1.5rem;
-  font-style: italic;
-}

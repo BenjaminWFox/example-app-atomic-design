@@ -1,3 +1,5 @@
+import ImageWithOverlay from '../atoms/image-with-overlay'
+
 function renderAllSubEntries(list) {
   if (list && list.entries?.length) {
     return <ul>
@@ -15,7 +17,7 @@ export default function ListDetails({ list }) {
   const { name, description, entries } = list
 
   return (<>
-    <h2>{name}</h2>
+    <div style={{position: 'relative'}}><ImageWithOverlay title={name} src="https://picsum.photos/1000/200/?blur=2" /></div>
     <em>{description}</em>
     <br /><br /><br />
     {entries && entries.length ? <>
