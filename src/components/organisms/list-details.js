@@ -1,4 +1,5 @@
 import ImageWithOverlay from '../atoms/image-with-overlay'
+import Button from '../atoms/button'
 
 function renderAllSubEntries(list) {
   if (list && list.entries?.length) {
@@ -16,6 +17,10 @@ return null
 export default function ListDetails({ list }) {
   const { name, description, entries } = list
 
+  const handleClick = () => {
+    alert('Add List Item Functionality not implemented!')
+  }
+
   return (<>
     <div style={{position: 'relative'}}><ImageWithOverlay title={name} src="https://picsum.photos/1000/200/?blur=2" /></div>
     <em>{description}</em>
@@ -25,5 +30,6 @@ export default function ListDetails({ list }) {
       {renderAllSubEntries(list)}
     </>
       : <h3>No lists for this category!</h3>}
+      <Button onClick={handleClick} label="Add List Item" />
   </>)
 }

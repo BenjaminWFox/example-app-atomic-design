@@ -1,5 +1,5 @@
 import BannerImage from '../molecules/banner-image'
-import TextLink from '../atoms/text-link'
+import TextLink from '../atoms/block-link'
 
 export default function AllListsContent({categories}) {
   return (<>

@@ -1,4 +1,4 @@
-import TextLink from '../atoms/text-link'
+import TextLink from '../atoms/block-link'
 
 export default function CategoryDetails({ category }) {
   const { name, description, lists } = category
