@@ -5,15 +5,15 @@ import Logo from '../molecules/logo'
 import Link from 'next/link'
 import HeaderLinkList from '../molecules/header-link-list'
 import HeaderIconsGroup from '../molecules/header-icons-group'
-import TextLink from '../atoms/block-link'
+import BlockLink from '../atoms/block-link'
 
 export default React.memo(function UserHeader() {
   return (<>
     <div className="horizontal">
       <Logo />
       <HeaderLinkList>
-        <TextLink href="/category/Personal">Categories</TextLink>
-        <TextLink href="/all">Lists</TextLink>
+        <BlockLink href="/category/Personal">Categories</BlockLink>
+        <BlockLink href="/all">Lists</BlockLink>
       </HeaderLinkList>
     </div>
     <HeaderIconsGroup>

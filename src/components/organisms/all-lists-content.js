@@ -1,5 +1,5 @@
 import BannerImage from '../molecules/banner-image'
-import TextLink from '../atoms/block-link'
+import BlockLink from '../atoms/block-link'
 
 export default function AllListsContent({categories}) {
   return (<>
@@ -16,7 +16,7 @@ export default function AllListsContent({categories}) {
             <ul>
               {category.lists.map(list => (
                 <li>
-                  <TextLink href={`/category/${category.name}/list/${list.name}`}>{list.name}</TextLink>
+                  <BlockLink href={`/category/${category.name}/list/${list.name}`}>{list.name}</BlockLink>
                 </li>
               ))}
             </ul>

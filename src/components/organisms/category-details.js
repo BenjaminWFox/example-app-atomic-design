@@ -1,4 +1,4 @@
-import TextLink from '../atoms/block-link'
+import BlockLink from '../atoms/block-link'
 
 export default function CategoryDetails({ category }) {
   const { name, description, lists } = category
@@ -9,7 +9,7 @@ export default function CategoryDetails({ category }) {
     {lists && lists.length ? <>
       <h3>Lists in Category:</h3>
       <ul>
-        {lists.map(list => <li key={list.name}><TextLink href={`${name}/list/${list.name}`}>{list.name}</TextLink></li>)}
+        {lists.map(list => <li key={list.name}><BlockLink href={`${name}/list/${list.name}`}>{list.name}</BlockLink></li>)}
       </ul>
     </>
       : <h3>No lists for this category!</h3>}

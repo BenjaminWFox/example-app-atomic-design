@@ -1,5 +1,5 @@
 import SidebarLinkList from '../molecules/sidebar-link-list'
-import TextLink from '../atoms/block-link'
+import BlockLink from '../atoms/block-link'
 import SidebarTitle from '../molecules/sidebar-title'
 
 export default function SidebarNavigation({ title, subtitle, sidenav, selected, children }) {
@@ -12,7 +12,7 @@ export default function SidebarNavigation({ title, subtitle, sidenav, selected, 
       {sidenav.map(entry => {
         const label = selected === entry.name ? `> ${entry.name}` : entry.name
 
-        return <TextLink key={entry.href} href={entry.href}>{label}</TextLink>
+        return <BlockLink key={entry.href} href={entry.href}>{label}</BlockLink>
       })}
     </SidebarLinkList>
     {children}
