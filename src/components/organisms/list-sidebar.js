@@ -7,7 +7,7 @@ export default function ListSidebar({category, name, description, sidenav}) {
   }
 
   return (
-    <SidebarNavigation selected={category.name} title={name} subtitle={description} sidenav={sidenav}>
+    <SidebarNavigation selected={category} title={name} subtitle={description} sidenav={sidenav}>
       <Button onClick={handleClick} label="Add List" />
     </SidebarNavigation>
   )

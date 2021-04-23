@@ -1,9 +1,9 @@
-import styles from './sidebar-title.module.css'
+import styles from './icon-heading.module.css'
 import Icon from '../atoms/icon'
 
-export default function SidebarTitle({title, subtitle}) {
+export default function IconHeading({title, subtitle}) {
   return (
-    <div className={styles.sidebar_title}>
+    <div className={styles.iconHeading}>
       <Icon src="/icons/person.svg" name="Personal" size="md" />
       <div className={styles.text}>
         <strong>{title}</strong>

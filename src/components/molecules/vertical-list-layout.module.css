@@ -1,10 +1,10 @@
-.sidebarLinkList {
+.verticalListLayout {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: var(--spacing-md);
 }
 
-.sidebarLinkList > * {
+.verticalListLayout > * {
   margin: 0 var(--spacing-md) var(--spacing-lg);
 }

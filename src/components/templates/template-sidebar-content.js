@@ -1,4 +1,4 @@
-import styles from '../../styles/Home.module.css'
+import styles from './templates.module.css'
 
 export default function TemplateSidebarContent({ header, sidebar, content }) {
   return (
