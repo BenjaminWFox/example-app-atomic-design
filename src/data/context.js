@@ -8,4 +8,12 @@ export const display = {
   pages: true,
 }
 
+export const colors = {
+  atoms: 'red',
+  molecules: 'blue',
+  organisms: 'aqua',
+  templates: 'green',
+  pages: 'yellow',
+}
+
 export const ADDisplayContext = React.createContext(display)
