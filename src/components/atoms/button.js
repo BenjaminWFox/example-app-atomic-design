@@ -1,3 +1,3 @@
 export default function Button({label, onClick}) {
-  return <button role="button" onClick={onClick}>{label}</button>
+  return <button className="atom" role="button" onClick={onClick}>{label}</button>
 }

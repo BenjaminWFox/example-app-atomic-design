@@ -3,7 +3,7 @@ import BlockLink from '../atoms/block-link'
 import IconHeading from '../molecules/icon-heading'
 
 export default function SidebarNavigation({ title, subtitle, sidenav, selected, children }) {
-  return (<>
+  return (<div className="organism">
     <IconHeading title={title} subtitle={subtitle} />
     <VerticalListLayout>
       {sidenav.map(entry => {
@@ -13,5 +13,5 @@ export default function SidebarNavigation({ title, subtitle, sidenav, selected, 
       })}
     </VerticalListLayout>
     {children}
-  </>)
+  </div>)
 }

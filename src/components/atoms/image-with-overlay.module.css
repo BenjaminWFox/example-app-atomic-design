@@ -21,3 +21,11 @@
   font-size: 1.5rem;
   font-style: italic;
 }
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

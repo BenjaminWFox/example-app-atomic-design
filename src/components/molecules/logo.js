@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Logo() {
   return (
-    <Link href="/"><a>
+    <Link href="/" className="molecule"><a>
       <div className={styles.logo}>
         <Icon src="/icons/home.svg" name="Home" size="xs" variant="invert" />
         {' '}

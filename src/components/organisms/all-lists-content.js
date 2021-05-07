@@ -2,7 +2,7 @@ import BannerImage from '../molecules/banner-image'
 import BlockLink from '../atoms/block-link'
 
 export default function AllListsContent({categories}) {
-  return (<>
+  return (<div className="organism">
     <BannerImage
       height="300px"
       src="/leaves.webp"
@@ -24,6 +24,6 @@ export default function AllListsContent({categories}) {
         )
       })}
     </div>
-  </>
+  </div>
   )
 }

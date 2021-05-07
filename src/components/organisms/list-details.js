@@ -21,7 +21,7 @@ export default function ListDetails({ list }) {
     alert('Add List Item Functionality not implemented!')
   }
 
-  return (<>
+  return (<div className="organism">
     <div style={{position: 'relative'}}><ImageWithOverlay title={name} src="https://picsum.photos/1000/200/?blur=2" /></div>
     <em>{description}</em>
     <br /><br /><br />
@@ -31,5 +31,5 @@ export default function ListDetails({ list }) {
     </>
       : <h3>No lists for this category!</h3>}
       <Button onClick={handleClick} label="Add List Item" />
-  </>)
+  </div>)
 }

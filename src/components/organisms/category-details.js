@@ -2,7 +2,7 @@ import BlockLink from '../atoms/block-link'
 
 export default function CategoryDetails({ category }) {
   const { name, description, lists } = category
-  return (<>
+  return (<div className="organism">
     <h2>{name}</h2>
     <em>{description}</em>
     <br /><br /><br />
@@ -13,5 +13,5 @@ export default function CategoryDetails({ category }) {
       </ul>
     </>
       : <h3>No lists for this category!</h3>}
-  </>)
+  </div>)
 }

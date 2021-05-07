@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function UserAvatar({ size, type, display }) {
   return (
-    <Link href="/profile">
+    <Link href="/profile" className="atom">
       <a>
         <div
           style={{ padding: `var(--spacing-${size})` }}
